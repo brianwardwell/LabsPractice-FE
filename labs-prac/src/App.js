@@ -1,11 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
+import CarForm from './Components/CarForm'
+import Header from './Components/Header'
 import './App.css';
 
 function App() {
+
+ 
+
   return (
     <>
-      <h1>Hello World</h1>
+      <Header />
+      <CarForm />
     </>
   );
 }
