@@ -2,8 +2,8 @@ import React from 'react';
 import { Route } from 'react-router-dom';
 
 import HomePage from './components/homePage';
-import SingleCarPage from './components/singleCarPage';
-import ComparePage from './components/comparePage';
+import SingleCarPage from './components/SingleCarPage';
+import ComparePage from './components/ComparePage';
 
 import './App.css';
 

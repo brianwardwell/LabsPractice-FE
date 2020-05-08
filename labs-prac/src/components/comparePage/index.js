@@ -1,13 +1,14 @@
-import React, { useState, useContext } from 'react';
+import React, { useState, useContext } from './node_modules/react';
 
-import MainCarInfo from '../mainCarInfo';
-import ComparisonCarInfo from '../comparisonCarInfo';
-import Chart from '../chart';
+import MainCarInfo from '../MainCarInfo';
+import ComparisonCarInfo from '../ComparisonCarInfo';
+import Chart from '../Chart';
 
 const ComparePage = () => {
     const [mainCar, setMainCar] = useState({});
     const [comparisonCar, setComparisonCar] = useState({});
     const [chartData, setChartData] = useState([]);
+    // add context to setState
 
     setChartData([...chartData, mainCar, comparisonCar])
 

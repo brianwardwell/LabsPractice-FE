@@ -1,11 +1,12 @@
-import React, { useState, useContext } from 'react';
+import React, { useState, useContext } from './node_modules/react';
 
-import MainCarInfo from 'react';
-import Chart from '../chart';
+import MainCarInfo from './node_modules/react';
+import Chart from '../Chart';
 
 const SingleCarPage = () => {
     const [details, setDetails] = useState({});
     const [chartData, setChartData] = useState({});
+    // add context to setState
 
     return (
         <div>

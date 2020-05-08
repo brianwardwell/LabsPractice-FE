@@ -1,6 +1,6 @@
-import React from 'react';
+import React from './node_modules/react';
 
-const carInfo = ({ make, model, year, type }) => {
+const CarInfo = ({ make, model, year, type }) => {
     return (
         <div>
             <h2>{year} {make} {model} <span>{type}</span></h2>
@@ -8,4 +8,4 @@ const carInfo = ({ make, model, year, type }) => {
     );
 };
 
-export default carInfo;
+export default CarInfo;

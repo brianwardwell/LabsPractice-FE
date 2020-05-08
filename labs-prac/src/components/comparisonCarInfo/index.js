@@ -1,12 +1,12 @@
-import React, {useContext} from 'react';
+import React, {useContext} from './node_modules/react';
 
-import carInfo from '../carInfo';
+import CarInfo from '../CarInfo';
 
 const ComparisonCarInfo = ({ c02, repairCost, lifetime }) => {
     const results = {replace: 'context goes here'}
     return (
         <div>
-            <carInfo car = {results} />
+            <CarInfo car = {results} />
         </div>
     )
 }
